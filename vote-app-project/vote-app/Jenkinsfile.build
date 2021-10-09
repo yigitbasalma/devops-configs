@@ -2,7 +2,7 @@
 
 builder_coreBuilder(
     application_type: "python",
-    scm_address: "git@github.com:yigitbasalma/voting-app.git",
+    scm_address: "https://github.com/yigitbasalma/voting-app.git",
     target_branch: "master",
     sonar_qube_project_key: "VOTE-APP",
     node: "tier1"
