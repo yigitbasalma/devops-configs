@@ -1,0 +1,9 @@
+@Library("default") _
+
+builder_coreBuilder(
+    application_type: "dotnetcore",
+    scm_address: "https://github.com/yigitbasalma/voting-app-worker.git",
+    target_branch: "master",
+    sonar_qube_project_key: "VOTE-APP-WORKER",
+    node: "tier1"
+)
