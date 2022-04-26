@@ -1,8 +1,0 @@
-@Library("default") _
-
-builder_coreBuilder(
-    application_type: "nodejs",
-    scm_address: "https://github.com/yigitbasalma/voting-app.git",
-    target_branch: "master",
-    sonar_qube_project_key: "super_app"
-)
