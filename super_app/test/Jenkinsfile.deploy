@@ -1,7 +1,0 @@
-@Library("default") _
-
-builder_coreDeployer(
-    application_type: "nodejs",
-    scm_address: "https://github.com/yigitbasalma/voting-app.git",
-    target_branch: "master"
-)
