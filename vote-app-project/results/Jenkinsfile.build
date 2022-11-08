@@ -1,6 +1,6 @@
 @Library("default") _
 
-builder_coreBuilder(
+core_builder(
     application_type: "nodejs",
     scm_address: "https://github.com/yigitbasalma/voting-app-results.git",
     target_branch: "master",
